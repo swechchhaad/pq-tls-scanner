@@ -1,1 +1,1 @@
-# python package dependencies for the scanner
+cryptography>=42.0
