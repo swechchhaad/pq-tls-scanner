@@ -17,9 +17,9 @@ generated on 08 July 2026. Certificates were fetched, parsed, and classified;
 | Metric | Count | Share |
 |---|---:|---:|
 | Post-quantum public keys | 0 | 0.00% |
-| Classical public keys | 7,810 | 99.99% |
+| Classical public keys | 7,811 | 100.00% |
 | Post-quantum signatures | 0 | 0.00% |
-| **Quantum-vulnerable certs** | **7,810** | **99.99%** |
+| **Quantum-vulnerable certs** | **7,811** | **100.00%** |
 
 Not a single certificate in the sample used a post-quantum public key or
 signature.
@@ -33,7 +33,7 @@ signature.
 | RSA-4096 | 324 | 4.15% |
 | ECDSA-384 | 44 | 0.56% |
 | RSA-3072 | 29 | 0.37% |
-| GOST (OID 1.2.643.7.1.1.1.1) | 1 | 0.01% |
+| GOST2012-256 | 1 | 0.01% |
 | RSA-1024 | 1 | 0.01% |
 
 ### Signature algorithms

@@ -260,7 +260,7 @@ oxylabs.io,oxylabs.io,WE1,Google Trust Services,ECDSA,1.2.840.10045.2.1,256,clas
 google.cn,*.google.cn,WE2,Google Trust Services,ECDSA,1.2.840.10045.2.1,256,classical,True,ecdsa-with-SHA256,2026-06-22,2026-09-14
 arxiv.org,arxiv.org,Certainly Intermediate R1,Certainly,RSA,1.2.840.113549.1.1.1,2048,classical,True,sha256WithRSAEncryption,2026-06-27,2026-07-27
 scribd.com,*.scribd.com,YR2,Let's Encrypt,RSA,1.2.840.113549.1.1.1,2048,classical,True,sha256WithRSAEncryption,2026-06-27,2026-09-25
-gosuslugi.ru,Минцифры России,Минцифры России,Минцифры России,1.2.643.7.1.1.1.1,1.2.643.7.1.1.1.1,,unknown,,GOST R 34.10-2012 with GOST R 34.11-2012 (256 bit),2025-08-05,2026-11-05
+gosuslugi.ru,Минцифры России,Минцифры России,Минцифры России,GOST2012-256,1.2.643.7.1.1.1.1,,classical,True,GOST R 34.10-2012 with GOST R 34.11-2012 (256 bit),2025-08-05,2026-11-05
 sohu.com,*.sohu.com,DigiCert Secure Site OV G2 TLS CN RSA4096 SHA256 2022 CA1,"DigiCert, Inc.",RSA,1.2.840.113549.1.1.1,2048,classical,True,sha256WithRSAEncryption,2025-07-15,2026-08-11
 duolingo.com,duolingo.com,Amazon RSA 2048 M01,Amazon,RSA,1.2.840.113549.1.1.1,2048,classical,True,sha256WithRSAEncryption,2025-11-25,2026-12-24
 behance.net,*.behance.net,YR2,Let's Encrypt,RSA,1.2.840.113549.1.1.1,2048,classical,True,sha256WithRSAEncryption,2026-07-07,2026-10-05

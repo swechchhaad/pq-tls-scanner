@@ -7,6 +7,9 @@ OID_MAP = {
     "1.3.101.113":          ("Ed448", "classical", True),
     "1.3.101.110":          ("X25519", "classical", True),
     "1.3.101.111":          ("X448", "classical", True),
+    "1.2.643.7.1.1.1.1":    ("GOST2012-256", "classical", True),
+    "1.2.643.7.1.1.1.2":    ("GOST2012-512", "classical", True),
+    "1.2.643.2.2.19":       ("GOST2001", "classical", True),
 
     # --- post-quantum: ML-DSA (FIPS 204, signatures) ---
     "2.16.840.1.101.3.4.3.17": ("ML-DSA-44", "post-quantum", False),
