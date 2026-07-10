@@ -48,6 +48,25 @@ signature.
 | GOST R 34.10-2012 w/ 34.11-2012 (256-bit) | 1 | 0.01% |
 | sha1WithRSAEncryption | 1 | 0.01% |
 
+### Certificate authorities
+
+Grouped by issuer organization (95 distinct; punctuation-only variants merged).
+The top six CAs issue ~89% of all certificates.
+
+| Issuer organization | Certs | Share |
+|---|---:|---:|
+| Google Trust Services | 2,080 | 26.63% |
+| Let's Encrypt | 1,676 | 21.46% |
+| DigiCert Inc | 1,105 | 14.15% |
+| Amazon | 1,075 | 13.76% |
+| GlobalSign nv-sa | 588 | 7.53% |
+| Sectigo Limited | 509 | 6.52% |
+| GoDaddy.com Inc | 125 | 1.60% |
+| Hellenic Academic and Research Institutions CA | 86 | 1.10% |
+| Microsoft Corporation | 50 | 0.64% |
+| Internet2 | 43 | 0.55% |
+| *(other 85 CAs)* | 474 | 6.06% |
+
 ## How to reproduce the numbers
 
 The pipeline runs in four steps: get a domain list → extract the top N →
@@ -114,6 +133,16 @@ python scripts/process_certs.py
 python scripts/analyze_results.py
 # prints the report and writes data/stats.txt
 ```
+
+### 6. Break down the issuers (optional)
+
+Groups the same processed certs by certificate authority:
+
+```bash
+python scripts/analyze_issuers.py
+# prints the table and writes data/org.txt
+```
+
 ## How PQ detection works
 
 [scanner/algorithms.py](scanner/algorithms.py) maps public-key OIDs to

@@ -1,0 +1,19 @@
+total certificates analyzed: 7811
+
+certificate authorities (by issuer organization) - 95 distinct
+  Google Trust Services                            2080  (26.63%)
+  Let's Encrypt                                    1676  (21.46%)
+  DigiCert Inc                                     1105  (14.15%)
+  Amazon                                           1075  (13.76%)
+  GlobalSign nv-sa                                  588  (7.53%)
+  Sectigo Limited                                   509  (6.52%)
+  GoDaddy.com Inc                                   125  (1.60%)
+  Hellenic Academic and Research Institutions CA     86  (1.10%)
+  Microsoft Corporation                              50  (0.64%)
+  Internet2                                          43  (0.55%)
+  Asseco Data Systems S.A                            41  (0.52%)
+  Cybertrust Japan Co. Ltd                           30  (0.38%)
+  ZeroSSL GmbH                                       29  (0.37%)
+  Entrust Limited                                    27  (0.35%)
+  Certainly                                          27  (0.35%)
+  (other 80 CAs)                                    320  (4.10%)
