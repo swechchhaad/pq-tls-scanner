@@ -14,3 +14,9 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+
+# generated / downloaded data (regenerate with the scripts in scripts/)
+data/*.csv
+data/domains.txt
+data/raw/
+data/processed/
